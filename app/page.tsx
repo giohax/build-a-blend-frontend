@@ -95,7 +95,7 @@ export default function Home() {
       }
       {
         streamedData.length > 0 && !loading && (
-          <div className="max-w-xl max-h-96 border rounded-lg overflow-auto py-3 px-4  border-neutral-700  mt-4 leading-8">
+          <div className="md:max-w-xl md:max-h-96 border rounded-lg overflow-auto py-3 px-4  border-neutral-700  mt-4 leading-8">
             <div className="w-full h-full ">
               {streamedData}
             </div>
