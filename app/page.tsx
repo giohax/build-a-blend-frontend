@@ -55,7 +55,7 @@ export default function Home() {
             suggestions.map((item: string, index: number) => (
                 <li key={index}
                   onClick={(e) => handleSuggestion(item)}
-                  className="bg-black border rounded-lg px-4 py-3 w-full border-neutral-700 mt-2 transition duration-200 ease-in-out transform hover:scale-105 cursor-pointer hover:bg-neutral-800">{item}<IconBoxArrowInUp className="inline text-xl ml-4" /></li>
+                  className="bg-black border rounded-lg px-4 py-3 w-full border-neutral-700 mt-2 transition duration-200 ease-in-out transform md:hover:scale-105 cursor-pointer md:hover:bg-neutral-800">{item}<IconBoxArrowInUp className="inline text-xl ml-4" /></li>
                 
             ))
           }
