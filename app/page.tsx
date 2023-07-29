@@ -15,7 +15,7 @@ export default function Home() {
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
     setLoading(true);
-    fetch("http://127.0.0.1:8000/stream", {
+    fetch("https://build-a-bear-backend-6c980c5e3e3e.herokuapp.com/stream", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ content: input }),
