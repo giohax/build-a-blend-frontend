@@ -25,6 +25,7 @@ export default function Home() {
         setStreamedData(formattedText)
         setLoading(false)
       })
+      .catch(error => console.error('Error:', error));
   };
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
